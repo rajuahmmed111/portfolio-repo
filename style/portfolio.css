@@ -122,3 +122,23 @@ nav a {
 .about-info {
     text-align: center;
 }
+ 
+/* what i do section style */
+
+#what-id {
+    padding: 30px 150px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.what-tittle {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.skills {
+    display: flex;
+}
