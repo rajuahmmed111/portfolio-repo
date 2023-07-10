@@ -3,6 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 /* common shared style */
 body {
@@ -18,7 +19,7 @@ font-weight: 800;
     color: #FD6E0A;;
 }
 
-.btn-praimary{
+.btn-primary{
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
@@ -43,4 +44,21 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header style */
+.header {
+    
+    background-color: #FFF8F3
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+
+.banner .portfolio-pic{
+    width: 500px;
+    
 }
