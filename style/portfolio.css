@@ -5,32 +5,35 @@ nav {
     align-items: center;
     margin: 0 200px;
 }
+
 /* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.nav-tittle{
+.nav-tittle {
     font-size: 45px;
-font-style: normal;
-font-weight: 800;
-}
-.tittle-primary {
-    color: #FD6E0A;;
+    font-style: normal;
+    font-weight: 800;
 }
 
-.btn-primary{
+.tittle-primary {
+    color: #FD6E0A;
+    ;
+}
+
+.btn-primary {
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
     background: #FD6E0A;
     border: 0px;
     color: white;
-    padding: 18px,35px;
+    padding: 18px, 35px;
 }
 
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -38,7 +41,7 @@ nav > ul {
 nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
 
 nav a {
@@ -54,24 +57,24 @@ nav a {
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     display: flex;
     padding: 30px 30px 0px 150px;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.banner-content{
+.banner-content {
     max- width: 585px;
 }
 
-.banner .portfolio-pic{
+.banner .portfolio-pic {
     width: 400px;
-    
+
 }
 
-.banner-tittle{
+.banner-tittle {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
@@ -88,11 +91,16 @@ nav a {
 }
 
 /* main section style */
-.main{
+.main {
     max-width: 1140px;
     margin: 0 auto;
 
 }
+
+main section {
+    margin-top: 130px;
+}
+
 /* abut section style */
 .about {
     padding: 130px;
@@ -113,7 +121,7 @@ nav a {
     font-size: 18px;
     font-weight: 400;
 }
-  
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
@@ -122,7 +130,7 @@ nav a {
 .about-info {
     text-align: center;
 }
- 
+
 /* what i do section style */
 
 #what-id {
@@ -139,6 +147,33 @@ nav a {
     color: #181818;
 }
 
-.skills {
+/* skills style */
+
+.skills-container {
     display: flex;
+    gap: 24px;
+
 }
+
+.skills-des {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.skills {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+/* resume style */
+
+.resume-column-tittle {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
